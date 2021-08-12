@@ -1,0 +1,12 @@
+pngnq
+imagemagick
+
+#downloadforsystem
+#https://cran.r-project.org/bin/linux/
+#for ubuntu
+https://cran.r-project.org/bin/linux/ubuntu/
+
+#find missing library
+sudo find /usr /opt / -type f -name libMagickCore-7.Q16HDRI.so.6
+#for magick library reading
+export LD_LIBRARY_PATH=/usr/local/lib
